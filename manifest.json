@@ -3,19 +3,22 @@
     "version": "1.0",
     "description": "A chrome extension that lets you modify the colors on any webpage.",
     "manifest_version": 2,
-    "page_action": {
+    "browser_action": {
         "default_popup": "index.html",
         "default_icon": {
-            "16": "img/color16.jpg",
-            "32": "img/color32.jpg",
-            "48": "img/color64.jpg",
-            "128": "img/color128.jpg"
+            "16": "img/color16.png",
+            "32": "img/color32.png",
+            "48": "img/color64.png",
+            "128": "img/color128.png"
         }
     },
     "icons": {
-        "16": "img/color16.jpg",
-        "32": "img/color32.jpg",
-        "48": "img/color64.jpg",
-        "128": "img/color128.jpg"
-    }
+        "16": "img/color16.png",
+        "32": "img/color32.png",
+        "48": "img/color64.png",
+        "128": "img/color128.png"
+    },
+    "permissions": [
+        "activeTab"
+    ]
 }
