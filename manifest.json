@@ -19,6 +19,8 @@
         "128": "img/color128.png"
     },
     "permissions": [
-        "activeTab"
+        "activeTab",
+        "storage",
+        "webNavigation"
     ]
 }
